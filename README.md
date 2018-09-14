@@ -13,3 +13,14 @@ ZINC12_AllClean.tar.gz.part00 to 07
   To uncompress:
     1) Join the 8 parts into a single compressed file with: cat ZINC12_AllClean.tar.gz.part* >> ZINC12_AllClean.tar.gz
     2) Exctract the files with: tar -xvzf ZINC12_AllClean.tar.gz
+    
+SB-DFPCalc.ipynb and SB-DFPCalc.py
+  The Jupyter notebook with the code employed for DFP and SB-DFP calculations with some examples, and the Python script of such notebook.
+  
+MACCS.counts and ECFP4.counts
+   Files containing the reference counts for the calculation of SB-DFP based on MACCS and ECFP4 respectively
+   These files are needed for the execution of the Python code.
+  
+DNMT1.csv
+  This file is needed for the execution of the Python code (used as example).
+  This file is also contained in Epigenetic_datasets.tar.gz
