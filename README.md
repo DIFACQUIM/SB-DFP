@@ -11,14 +11,14 @@ ZINC12_AllClean.tar.gz.part00 to 07
     Reference_Dataset.csv     |     Contains 15,403,690 structures used as reference for SB-DFP calculations.
     Decoys.csv                |     Contains 1 million compounds used as decoys in similarity searching runs.
   To uncompress:
-    1) Join the 8 parts into a single compressed file with: cat ZINC12_AllClean.tar.gz.part* >> ZINC12_AllClean.tar.gz
+    1) Join the 8 parts into a single compressed file with: cat ZINC12_AllClean.tar.gz.part* >> ZINC12_AllClean.tar.gz and
     2) Exctract the files with: tar -xvzf ZINC12_AllClean.tar.gz
     
 SB-DFPCalc.ipynb and SB-DFPCalc.py
   The Jupyter notebook with the code employed for DFP and SB-DFP calculations with some examples, and the Python script of such notebook.
   
 MACCS.counts and ECFP4.counts
-   Files containing the reference counts for the calculation of SB-DFP based on MACCS and ECFP4 respectively
+   Files containing the reference counts for the calculation of SB-DFP based on MACCS and ECFP4 respectively.
    These files are needed for the execution of the Python code.
   
 DNMT1.csv
