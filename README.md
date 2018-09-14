@@ -10,4 +10,6 @@ ZINC12_AllClean.tar.gz.part00 to 07
     Repeated_Structures.csv   |     Contains 154 repeated compounds between ZINC 12 AllClean subset and Epigenetic datasets
     Reference_Dataset.csv     |     Contains 15,403,690 structures used as reference for SB-DFP calculations
     Decoys.csv                |     Contains 1 million compounds used as decoys in similarity searching runs
-    
+  To uncompress:
+    1) Join the 8 parts into a single compressed file with: cat ZINC12_AllClean.tar.gz.part* >> ZINC12_AllClean.tar.gz
+    2) Exctract the files with: tar -xvzf ZINC12_AllClean.tar.gz
