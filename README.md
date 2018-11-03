@@ -24,3 +24,6 @@ MACCS.counts and ECFP4.counts
 DNMT1.csv
   This file is needed for the execution of the Python code (used as example).
   This file is also contained in Epigenetic_datasets.tar.gz
+
+Similarity_Searching.csv
+  This file contains the results of all similarity searching calculations performed in the work, including Data set, Method, Fingerprint, Confidence level (if applicable), Recovery Rate and Area Under ROC Curve.
